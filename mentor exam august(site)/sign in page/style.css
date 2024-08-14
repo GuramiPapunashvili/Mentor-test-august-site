@@ -1,0 +1,31 @@
+#SignUp {
+    background-color: aliceblue;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 5px 10px rgb(216, 237, 255);
+    margin-left: 500px;
+    margin-top: 180px;
+}
+
+.Inputs {
+    width: 150px;
+    border-radius: 15px;
+    color: black;
+}
+
+#Confirm {
+    background-color: rgb(7, 7, 168);
+    color: white;
+    height: 35px;
+}
+
+
+
+#Table, #TableViewer {
+    display: none;
+}

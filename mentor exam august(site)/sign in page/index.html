@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <div id="SignUp">
+            <label for="Gmail">please enter your Gmail/Username</label> 
+            <input type="text" id="Gmail" class="Inputs" required> 
+            <label for="Password">please enter your Password</label> 
+            <input type="text" id="Password" class="Inputs" required> 
+            <label for="Role">Choose Your Role</label>
+            <select onclick="getValue()" name="Role" id="Choose" class="Inputs" required>
+                <option value="Moderator">Moderator</option>
+                <option value="Viewer">Viewer</option>
+            </select>
+            <button id="Confirm" class="Inputs" onclick="checkRole()">Sign Up</button>
+    </div>
+    <div id="Table">
+        <table contentEditable = 'true' border="2px" id="tableInfo">
+            <tr>
+                <td colspan="4">ჯგუფი 22 (კვირაში ორჯერ)</td>
+            </tr>
+            <tr>
+                <td>Kids Name</td>
+                <td>Parents Name</td>
+                <td>Kids Age</td>
+                <td>Kids Leader</td>
+            </tr>
+            <tr>
+                <td>ნიკოლოზ კვირიკაშვილი</td>
+                <td>კვირიკაშვილი დათო</td>
+                <td>7</td>
+                <td>თაზო გოგიშვილი</td>
+            </tr>
+            <tr>
+                <td>ანდრია ეფიმოვსკი</td>
+                <td>კრისტინა მაღლაკელიძე</td>
+                <td>9</td>
+                <td>დანიელ აბრამიანი</td>
+            </tr>   
+            <tr>
+                <td>იოანე ჯეირანაშვილი</td>
+                <td>ჯე რი</td>
+                <td>9</td>
+                <td>გურამ ვახტანგაშვილი</td>
+            </tr>  
+            <tr>
+                <td>მარი მარი</td>
+                <td>ლუკა ელიკაშვილი</td>
+                <td>10</td>
+                <td>გურამ პაპუნაშვილი</td>
+            </tr>       
+            <tr>
+                <td>ია ბაშინურიძე</td>
+                <td>ლუკა ოშორიძე</td>
+                <td>10</td>
+                <td>ათუკა ხუსკივაძე</td>
+            </tr>   
+            <tr>
+                <td>ხათო ხათო</td>
+                <td>დალუ მანაშეროვი</td>
+                <td>9</td>
+                <td>მათე დოლიძე</td>                
+        </table>
+
+        <div id="TableViewer">
+            <table contentEditable = 'true' border="2px" id="tableInfo">
+                <tr>
+                    <td colspan="4">ჯგუფი 22 (კვირაში ორჯერ)</td>
+                </tr>
+                <tr>
+                    <td>Kids Name</td>
+                    <td>Parents Name</td>
+                    <td>Kids Age</td>
+                    <td>Kids Leader</td>
+                </tr>
+                <tr>
+                    <td>ნიკოლოზ კვირიკაშვილი</td>
+                    <td>კვირიკაშვილი დათო</td>
+                    <td>7</td>
+                    <td>თაზო გოგიშვილი</td>
+                </tr>
+                <tr>
+                    <td>ანდრია ეფიმოვსკი</td>
+                    <td>კრისტინა მაღლაკელიძე</td>
+                    <td>9</td>
+                    <td>დანიელ აბრამიანი</td>
+                </tr>   
+                <tr>
+                    <td>იოანე ჯეირანაშვილი</td>
+                    <td>ჯე რი</td>
+                    <td>9</td>
+                    <td>გურამ ვახტანგაშვილი</td>
+                </tr>  
+                <tr>
+                    <td>მარი მარი</td>
+                    <td>ლუკა ელიკაშვილი</td>
+                    <td>10</td>
+                    <td>გურამ პაპუნაშვილი</td>
+                </tr>       
+                <tr>
+                    <td>ია ბაშინურიძე</td>
+                    <td>ლუკა ოშორიძე</td>
+                    <td>10</td>
+                    <td>ათუკა ხუსკივაძე</td>
+                </tr>   
+                <tr>
+                    <td>ხათო ხათო</td>
+                    <td>დალუ მანაშეროვი</td>
+                    <td>9</td>
+                    <td>მათე დოლიძე</td>                
+            </table>        
+
+    
+
+</body>
+</html>
